@@ -1,0 +1,5 @@
+package com.lms.lms.exception;
+
+public class InvalidLeaveDateException extends RuntimeException {
+    public InvalidLeaveDateException(String message) { super(message); }
+}
